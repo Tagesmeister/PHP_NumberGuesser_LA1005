@@ -25,16 +25,16 @@ To-Do Liste in PHP
 | 3  |        Muss         |   Funktional   |   Als User möchte ich eine bestehende Notiz bearbeiten können, welche anschliessend in der Datenbank modifiziert wird, um Fehlereinträge beheben zu können.                                 |
 | 4  |        Muss         |   Funktional   |  Als User möchte ich, dass ich bestehende Notizen löschen kann, welche anschliessend aus der Datenbank entfernt wird, damit ich fehler oder alte Einträge, löschen kann.       |
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  |    Website gestartet Eingabefeld geöffnet          |   "Hausaufgaben machen" + *Button (Einschreiben)*      |      Eintrag wurde in die Datenbank hinzugefügt.             |
+| 2.1  |    Website gestartet         |   *Nichts*      |     "Hausaufgaben machen"            |
+| 3.1  |    Website gestartet Auswahlfeld geöffnet    |   *Klicke (Hausaufgaben machen)* + *schreibe ("Zimmer aufräumen")*     | Eintrag wurde bearbeitet.                  |
+| 4.1  |    Website gestartet Auswahlfeld geöffnet         |     *Klicke ("Zimmer aufräumen")*  + *Button (Löschen)*         |         Eintrag wurde aus der Datenbank entfernt.          |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 ### 1.4 Diagramme
 
