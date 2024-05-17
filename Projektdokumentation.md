@@ -6,7 +6,7 @@
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | Wir haben uns über PHP und MySQL informiert und unsere Umgebung eingerichtet. |
+|  17.05.2024     | 0.0.1   | Wir haben uns über PHP und MySQL informiert und unsere Umgebung eingerichtet. |
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
@@ -33,7 +33,7 @@ To-Do Liste in PHP
 | ---- | ------------ | ------- | ----------------- |
 | 1.1 | | | |
 | 2.1  |    Website gestartet Eingabefeld geöffnet          |   "Hausaufgaben machen" + *Button (Einschreiben)*      |      Eintrag wurde in die Datenbank hinzugefügt.             |
-| 3.1  |    Website gestartet         |   *Nichts*      |     "Hausaufgaben machen"            |
+| 3.1  |    Website gestartet         |   *Button (Lesen)*       |     "Hausaufgaben machen"            |
 | 4.1  |    Website gestartet Auswahlfeld geöffnet    |   *Klicke (Hausaufgaben machen)* + *schreibe ("Zimmer aufräumen")*     | Eintrag wurde bearbeitet.                  |
 | 5.1  |    Website gestartet Auswahlfeld geöffnet         |     *Klicke ("Zimmer aufräumen")*  + *Button (Löschen)*         |         Eintrag wurde aus der Datenbank entfernt.          |
 
@@ -46,18 +46,18 @@ To-Do Liste in PHP
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |   24.05.24    |   Pascal Oestrich & Marek von Rogall        |      Erstellung der Datenbank        |      60 min         |
-| 2.A  |   24.05.24    |   Pascal Oestrich & Marek von Rogall        |      API Anfrage (POST) in PHP verarbeiten. | 45 min  |
-| 2.B  |   24.05.24    |   Pascal Oestrich & Marek von Rogall        |      Einträge mit PHP in die MySQL Datenbank hinzufügen.        |     45 min          |
-| 2.C  |   24.05.24    |   Pascal Oestrich & Marek von Rogall        |      Frontend für das hinzufügen von Notizen gestalten (HTML/CSS).        |     30 min          |
-| 2.D  |   24.05.24    |   Pascal Oestrich & Marek von Rogall        |      Client-Side script (JS) für die API-Anfrage (POST) schreiben.        |     30 min          |
-| 3.A  |   31.05.24    |   Pascal Oestrich & Marek von Rogall        |      API Anfrage (GET) in PHP verarbeiten. | 45 min  |
-| 3.B  |   31.05.24    |   Pascal Oestrich & Marek von Rogall        |      Einträge mit PHP aus der MySQL Datenbank abrufen.        |     45 min          |
-| 3.C  |   31.05.24    |   Pascal Oestrich & Marek von Rogall        |      Frontend für das abrufen von Notizen gestalten (HTML/CSS)        |     60 min          |
-| 3.D  |   31.05.24    |   Pascal Oestrich & Marek von Rogall        |      Client-Side script (JS) für die API-Anfrage (GET) schreiben.        |     30 min          |
-| 4.D  |   31.05.24    |   Pascal Oestrich & Marek von Rogall        |      Client-Side script (JS) für die dynamische Darstellung der abgerufenen Daten auf dem Frontend schreiben.        |     30 min          |
+| 1.A  |   24.05.24    |   Pascal Oestrich & Marek von Rogall        |      Erstellung der Datenbank        |      1.3        |
+| 2.A  |   24.05.24    |   Pascal Oestrich & Marek von Rogall        |      API Anfrage (POST) in PHP verarbeiten. | 1  |
+| 2.B  |   24.05.24    |   Pascal Oestrich & Marek von Rogall        |      Einträge mit PHP in die MySQL Datenbank hinzufügen.        |     1          |
+| 2.C  |   24.05.24    |   Pascal Oestrich & Marek von Rogall        |      Frontend für das hinzufügen von Notizen gestalten (HTML/CSS).        |     0.6          |
+| 2.D  |   24.05.24    |   Pascal Oestrich & Marek von Rogall        |      Client-Side script (JS) für die API-Anfrage (POST) schreiben.        |     0.6          |
+| 3.A  |   31.05.24    |   Pascal Oestrich & Marek von Rogall        |      API Anfrage (GET) in PHP verarbeiten. | 1  |
+| 3.B  |   31.05.24    |   Pascal Oestrich & Marek von Rogall        |      Einträge mit PHP aus der MySQL Datenbank abrufen.        |     1         |
+| 3.C  |   31.05.24    |   Pascal Oestrich & Marek von Rogall        |      Frontend für das abrufen von Notizen gestalten (HTML/CSS)        |     1.3         |
+| 3.D  |   31.05.24    |   Pascal Oestrich & Marek von Rogall        |      Client-Side script (JS) für die API-Anfrage (GET) schreiben.        |     0.6          |
+| 4.D  |   31.05.24    |   Pascal Oestrich & Marek von Rogall        |      Client-Side script (JS) für die dynamische Darstellung der abgerufenen Daten auf dem Frontend schreiben.        |     0.6          |
 
-Total: 
+Total: 9 = 405min, denn Ein Arbeitsblock = 45 min
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
