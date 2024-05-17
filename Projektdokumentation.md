@@ -20,8 +20,10 @@ To-Do Liste in PHP
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |       Muss          |   Funktional   | Als User möchte eine neue Notiz erstellen können, welche anschliessend in der Datenbank gespeichert wird. Um die Datenbank mit Daten zu füllen und ich diese später abrufen kann.|
+| 2  |        Muss         |  Funktional    |  Als User möchte ich bestehende Notizen aus der Datenbank abrufen können, um meine Einträge lesen zu können.                                  |
+| 3  |        Muss         |   Funktional   |   Als User möchte ich eine bestehende Notiz bearbeiten können, welche anschliessend in der Datenbank modifiziert wird, um Fehlereinträge beheben zu können.                                 |
+| 4  |        Muss         |   Funktional   |  Als User möchte ich, dass ich bestehende Notizen löschen kann, welche anschliessend aus der Datenbank entfernt wird, damit ich fehler oder alte Einträge, löschen kann.       |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
