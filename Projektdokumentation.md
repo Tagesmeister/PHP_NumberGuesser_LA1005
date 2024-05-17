@@ -6,7 +6,7 @@
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
+|       | 0.0.1   | Wir haben uns über PHP und MySQL informiert und unsere Umgebung eingerichtet. |
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
@@ -20,20 +20,22 @@ To-Do Liste in PHP
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |       Muss          |   Funktional   | Als User möchte eine neue Notiz erstellen können, welche anschliessend in der Datenbank gespeichert wird. Um die Datenbank mit Daten zu füllen und ich diese später abrufen kann.|
-| 2  |        Muss         |  Funktional    |  Als User möchte ich bestehende Notizen aus der Datenbank abrufen können, um meine Einträge lesen zu können.                                  |
-| 3  |        Muss         |   Funktional   |   Als User möchte ich eine bestehende Notiz bearbeiten können, welche anschliessend in der Datenbank modifiziert wird, um Fehlereinträge beheben zu können.                                 |
-| 4  |        Muss         |   Funktional   |  Als User möchte ich, dass ich bestehende Notizen löschen kann, welche anschliessend aus der Datenbank entfernt wird, damit ich fehler oder alte Einträge, löschen kann.       |
+| 1  |   Muss | Funktional | Als Benutzer möchte ich, dass Daten in einer Datenbank gespeichert werden, um diese langfristig zu speichern. |
+| 2    |       Muss          |   Funktional   | Als User möchte eine neue Notiz erstellen können, welche anschliessend in der Datenbank gespeichert wird, um Einträge speichern zu können. |
+| 3  |        Muss         |  Funktional    |  Als User möchte ich bestehende Notizen aus der Datenbank abrufen können, um meine Einträge lesen zu können.                                  |
+| 4  |        Muss         |   Funktional   |   Als User möchte ich eine bestehende Notiz bearbeiten können, welche anschliessend in der Datenbank modifiziert wird, um Fehlereinträge beheben zu können.                                 |
+| 5  |        Muss         |   Funktional   |  Als User möchte ich, dass ich bestehende Notizen löschen kann, welche anschliessend aus der Datenbank entfernt werden, damit ich Fehler oder alte Einträge, löschen kann.       |
 
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |    Website gestartet Eingabefeld geöffnet          |   "Hausaufgaben machen" + *Button (Einschreiben)*      |      Eintrag wurde in die Datenbank hinzugefügt.             |
-| 2.1  |    Website gestartet         |   *Nichts*      |     "Hausaufgaben machen"            |
-| 3.1  |    Website gestartet Auswahlfeld geöffnet    |   *Klicke (Hausaufgaben machen)* + *schreibe ("Zimmer aufräumen")*     | Eintrag wurde bearbeitet.                  |
-| 4.1  |    Website gestartet Auswahlfeld geöffnet         |     *Klicke ("Zimmer aufräumen")*  + *Button (Löschen)*         |         Eintrag wurde aus der Datenbank entfernt.          |
+| 1.1 | | | |
+| 2.1  |    Website gestartet Eingabefeld geöffnet          |   "Hausaufgaben machen" + *Button (Einschreiben)*      |      Eintrag wurde in die Datenbank hinzugefügt.             |
+| 3.1  |    Website gestartet         |   *Nichts*      |     "Hausaufgaben machen"            |
+| 4.1  |    Website gestartet Auswahlfeld geöffnet    |   *Klicke (Hausaufgaben machen)* + *schreibe ("Zimmer aufräumen")*     | Eintrag wurde bearbeitet.                  |
+| 5.1  |    Website gestartet Auswahlfeld geöffnet         |     *Klicke ("Zimmer aufräumen")*  + *Button (Löschen)*         |         Eintrag wurde aus der Datenbank entfernt.          |
 
 
 ### 1.4 Diagramme
@@ -44,8 +46,16 @@ To-Do Liste in PHP
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  |   24.05.24    |   Pascal Oestrich & Marek von Rogall        |      Erstellung der Datenbank        |      60 min         |
+| 2.A  |   24.05.24    |   Pascal Oestrich & Marek von Rogall        |      API Anfrage (POST) in PHP verarbeiten. | 45 min  |
+| 2.B  |   24.05.24    |   Pascal Oestrich & Marek von Rogall        |      Einträge mit PHP in die MySQL Datenbank hinzufügen.        |     45 min          |
+| 2.C  |   24.05.24    |   Pascal Oestrich & Marek von Rogall        |      Frontend für das hinzufügen von Notizen gestalten (HTML/CSS).        |     30 min          |
+| 2.D  |   24.05.24    |   Pascal Oestrich & Marek von Rogall        |      Client-Side script (JS) für die API-Anfrage (POST) schreiben.        |     30 min          |
+| 3.A  |   31.05.24    |   Pascal Oestrich & Marek von Rogall        |      API Anfrage (GET) in PHP verarbeiten. | 45 min  |
+| 3.B  |   31.05.24    |   Pascal Oestrich & Marek von Rogall        |      Einträge mit PHP aus der MySQL Datenbank abrufen.        |     45 min          |
+| 3.C  |   31.05.24    |   Pascal Oestrich & Marek von Rogall        |      Frontend für das abrufen von Notizen gestalten (HTML/CSS)        |     60 min          |
+| 3.D  |   31.05.24    |   Pascal Oestrich & Marek von Rogall        |      Client-Side script (JS) für die API-Anfrage (GET) schreiben.        |     30 min          |
+| 4.D  |   31.05.24    |   Pascal Oestrich & Marek von Rogall        |      Client-Side script (JS) für die dynamische Darstellung der abgerufenen Daten auf dem Frontend schreiben.        |     30 min          |
 
 Total: 
 
