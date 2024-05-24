@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="button-section">
+        <div>
+            <label class="input-txt" for="insert-input-Todo">Einschreiben To-Do</label>
+            <br>
+            <input type="text" class="input-title" id="insert-title-Todo" placeholder="Titel:"><br>
+            <textarea class="textarea-section" id="insert-textarea-Todo" placeholder="To-Do:" rows="4"></textarea><br>
+            <button class="button" onclick="Insert()">Einschreiben</button>
+        </div>
+
+        <div>
+            <label class="input-txt" for="read-input-Todo">Lesen To-Do</label>
+            <br>
+            <input type="text" class="input-title" id="read-title-Todo" placeholder="Titel:"><br>
+            <textarea class="textarea-section" id="read-textarea-Todo" placeholder="To-Do:" rows="4"></textarea><br>
+            <button class="button" onclick="Read()">Lesen</button>
+        </div>
+
+        <div>
+            <label class="input-txt" for="update-input-Todo">Update To-Do</label>
+            <br>
+            <input type="text" class="input-title" id="update-title-Todo" placeholder="Titel:"><br>
+            <textarea class="textarea-section" id="update-textarea-Todo" placeholder="To-Do:" rows="4"></textarea><br>
+            <button class="button" onclick="Update()">Update</button>
+        </div>
+
+        <div>
+            <label class="input-txt" for="delete-input-Todo">Löschen To-Do</label>
+            <br>
+            <input type="text" class="input-title" id="delete-title-Todo" placeholder="Titel:"><br>
+            <textarea class="textarea-section" id="delete-textarea-Todo" placeholder="To-Do:" rows="4"></textarea><br>
+            <button class="button" onclick="Delete()">Löschen</button>
+        </div>
+        <div id="data-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titel</th>
+                        <th>To-Do</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <!-- Daten werden hier dynamisch eingefügt -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <script src="dataSubmiter.js"></script>
+</body>
+</html>
