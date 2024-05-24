@@ -7,7 +7,7 @@
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |  17.05.2024     | 0.0.1   | Wir haben uns über PHP und MySQL informiert und unsere Umgebung eingerichtet. |
-|       | ...     |                                                              |
+|   24.05.2024    | 0.0.2   |  Wir haben heute an den Form im html, wie auch css gearbeitet. Im Js ist read and write implementiert. Im PHP haben wir das Get and Post implementiert.|
 |       | 1.0.0   |                                                              |
 
 ## 1 Informieren
