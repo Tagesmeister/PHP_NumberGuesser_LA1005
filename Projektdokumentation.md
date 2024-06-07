@@ -100,4 +100,5 @@ Alle Testfälle hatte ein positives ergebniss, Projekt kann freigegeben werden.
 ## 6 Mahara-Portfolio
 
 Pascal Oestrich:
+
 Marek von Rogall:
