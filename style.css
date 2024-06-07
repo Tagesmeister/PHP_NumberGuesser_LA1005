@@ -54,3 +54,39 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
+/*Chat GPT-------------------------*/
+#data-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#data-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#data-table th, #data-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#data-table th {
+    background-color: #e9ecef;
+}
+
+#update-section, #delete-section {
+    width: 80%;
+    display: none; /* initially hidden */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+#update-section.active, #delete-section.active {
+    display: block; /* shown when active */
+}
+/*-------------------------------*/
