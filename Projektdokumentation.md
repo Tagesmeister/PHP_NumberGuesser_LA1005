@@ -30,7 +30,8 @@ To-Do Liste in HTML und Js, als Backend nutzen wird PHP.
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1 | | | |
+| 1.1  |Website gestartet | *Eintrag wird mit dem Formular hinzugefügt und abgesendet* | *Eintrag wird mit dem Formular hinzugefügt und abgesendet* |
+| 1.2  |Website gestartet | *Button (Lesen)* | * Der Eintrag aus 1.1 wird immernoch angezeigt, da er in der Datenbank gespeichert wurde.* |
 | 2.1  |    Website gestartet Eingabefeld geöffnet          |   "Hausaufgaben machen" + *Button (Einschreiben)*      |      Eintrag wurde in die Datenbank hinzugefügt.             |
 | 3.1  |    Website gestartet         |   *Button (Lesen)*       |     "Hausaufgaben machen"            |
 | 4.1  |    Website gestartet Auswahlfeld geöffnet    |   *Klicke (Hausaufgaben machen)* + *schreibe ("Zimmer aufräumen")*     | Eintrag wurde bearbeitet.                  |
@@ -87,10 +88,12 @@ Total tatsächliche Zeit: 10.1 = 454min
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
 | 1.1  |  07.06.2024     |    OK      |   Pascal Oestrich     |
+| 1.2  |  07.06.2024     |    OK      |   Pascal Oestrich     |
 | 2.1  |    07.06.2024    |    OK       |     Pascal Oestrich    |
 |  3.1   |   07.06.2024     |   OK        |    Pascal Oestrich     |
 | 4.1  |  07.06.2024      |   OK        |   Pascal Oestrich      |
 | 5   |   07.06.2024     |    OK      |   Pascal Oestrich      |
+
 
 Alle Testfälle hatte ein positives ergebniss, Projekt kann freigegeben werden.
 
