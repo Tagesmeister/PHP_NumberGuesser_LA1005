@@ -4,53 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>To-Do Verwaltung</title>
 </head>
 <body>
     <section id="button-section">
         <div>
-            <label class="input-txt" for="insert-input-Todo">Einschreiben To-Do</label>
+            <label class="input-txt" for="insert-title-Todo">Einschreiben To-Do</label>
             <br>
             <input type="text" class="input-title" id="insert-title-Todo" placeholder="Titel:"><br>
-            <textarea class="textarea-section" id="insert-textarea-Todo" placeholder="To-Do:" rows="4"></textarea><br>
+            <textarea class="textarea-section" id="insert-textarea-Todo" placeholder="Inhalt des To-Do:" rows="4"></textarea><br>
             <button class="button" onclick="Insert()">Einschreiben</button>
         </div>
 
         <div>
-            <label class="input-txt" for="read-input-Todo">Lesen To-Do</label>
-            <br>
-            <input type="text" class="input-title" id="read-title-Todo" placeholder="Titel:"><br>
-            <textarea class="textarea-section" id="read-textarea-Todo" placeholder="To-Do:" rows="4"></textarea><br>
-            <button class="button" onclick="Read()">Lesen</button>
+            <button class="button" onclick="Read()">To-Dos anzeigen</button>
         </div>
 
-        <div>
-            <label class="input-txt" for="update-input-Todo">Update To-Do</label>
-            <br>
-            <input type="text" class="input-title" id="update-title-Todo" placeholder="Titel:"><br>
-            <textarea class="textarea-section" id="update-textarea-Todo" placeholder="To-Do:" rows="4"></textarea><br>
-            <button class="button" onclick="Update()">Update</button>
-        </div>
-
-        <div>
-            <label class="input-txt" for="delete-input-Todo">Löschen To-Do</label>
-            <br>
-            <input type="text" class="input-title" id="delete-title-Todo" placeholder="Titel:"><br>
-            <textarea class="textarea-section" id="delete-textarea-Todo" placeholder="To-Do:" rows="4"></textarea><br>
-            <button class="button" onclick="Delete()">Löschen</button>
-        </div>
         <div id="data-table">
             <table>
                 <thead>
                     <tr>
+                        <th>ID</th>
                         <th>Titel</th>
-                        <th>To-Do</th>
+                        <th>Inhalt</th>
+                        <th>Änderungsdatum</th>
+                        <th>Aktionen</th>
                     </tr>
                 </thead>
                 <tbody id="table-body">
-                    <!-- Daten werden hier dynamisch eingefügt -->
+                   
                 </tbody>
             </table>
+        </div>
+
+ 
+        <div style="display:none;" id="update-section">
+            <label for="update-title-Todo">Update To-Do</label>
+            <br>
+            <input type="text" id="update-title-Todo" placeholder="Neuer Titel">
+            <textarea id="update-textarea-Todo" placeholder="Neuer Inhalt" rows="4"></textarea>
+            <button onclick="Update()">Update speichern</button>
+        </div>
+
+        <div style="display:none;" id="delete-section">
+            <label for="delete-id-Todo">Löschen To-Do ID</label>
+            <br>
+            <input type="text" id="delete-id-Todo" readonly>
+            <button onclick="Delete()">Löschen bestätigen</button>
         </div>
     </section>
 
