@@ -1,5 +1,7 @@
 let currentUpdateId;
 
+Read();
+
 function Insert() {
   let title = document.getElementById("insert-title-Todo").value;
   let content = document.getElementById("insert-textarea-Todo").value;
@@ -19,6 +21,7 @@ function Insert() {
   })
     .then((result) => {
       console.log(result);
+      Read();
     })
     .catch((error) => {
       console.log(error);
@@ -72,6 +75,7 @@ function Delete(id) {
   fetch("PHP/delete.php", options)
     .then((result) => {
       console.log(result);
+      Read()
     })
     .catch((error) => {
       console.log(error);
@@ -105,6 +109,8 @@ function Update() {
   })
     .then((result) => {
       console.log(result);
+      Read();
+      HideUpdateSection();
     })
     .catch((error) => {
       console.log(error);
