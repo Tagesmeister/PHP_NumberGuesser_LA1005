@@ -39,18 +39,11 @@
 
  
         <div style="display:none;" id="update-section">
-            <label for="update-title-Todo">Update To-Do</label>
-            <br>
-            <input type="text" id="update-title-Todo" placeholder="Neuer Titel">
-            <textarea id="update-textarea-Todo" placeholder="Neuer Inhalt" rows="4"></textarea>
+            <p for="update-title-Todo">Update To-Do</p>
+            <input type="text" id="update-title-todo" placeholder="Neuer Titel">
+            <textarea id="update-content-todo" placeholder="Neuer Inhalt" rows="4"></textarea>
             <button onclick="Update()">Update speichern</button>
-        </div>
-
-        <div style="display:none;" id="delete-section">
-            <label for="delete-id-Todo">Löschen To-Do ID</label>
-            <br>
-            <input type="text" id="delete-id-Todo" readonly>
-            <button onclick="Delete()">Löschen bestätigen</button>
+            <button onclick="HideUpdateSection()">Abbrechen</button>
         </div>
     </section>
 
