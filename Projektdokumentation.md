@@ -101,4 +101,4 @@ Alle Testfälle hatte ein positives ergebniss, Projekt kann freigegeben werden.
 
 Pascal Oestrich: https://portfolio.bbbaden.ch/user/p-oestrich-inf22/php-website-la-1305
 
-Marek von Rogall:
+Marek von Rogall: https://portfolio.bbbaden.ch/view/view.php?t=49f1cf6aa6f794a7c44f
